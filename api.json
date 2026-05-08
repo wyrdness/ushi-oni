@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/ushi-oni",
     "maintainers": [
       {
@@ -16,72 +16,138 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ushi-oni",
-    "name": "",
-    "aliases": [],
+    "name": "Ushi-oni",
+    "aliases": [
+      { "name": "牛鬼", "language": "Japanese", "meaning": "Ox-demon; the kanji form read as ushi-oni" },
+      { "name": "Gyūki", "language": "Japanese", "meaning": "Alternative reading of the same kanji 牛鬼; ox-demon" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Unknown",
+    "subcategory": "Japanese yokai / coastal demon",
     "tags": [
+      "japanese",
+      "yokai",
+      "coastal",
+      "demon",
+      "oni",
+      "ox-demon",
+      "japan",
       "folklore",
-      "mythology"
+      "western-japan",
+      "shapeshifter"
     ],
     "status": "documented",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "The Ushi-oni (牛鬼, also read gyūki) is a fearsome yokai from Japanese folklore combining the head of an ox with a monstrous body; it inhabits coastal and waterside areas in western Japan and is known for savage attacks on humans.",
+      "full": "The Ushi-oni (牛鬼, 'ox-demon,' also read gyūki) is a class of fearsome yokai from Japanese folklore — primarily of western Japan including Ehime, Wakayama, Shimane, and other prefectures. The name combines 'ushi' (ox) and 'oni' (demon or supernatural being). Unlike many yokai classes that have a single coherent description, the ushi-oni varies significantly by region. Common features include an ox head with upward-curving horns, sharp fangs, a slender tongue, and a monstrous body that may be spider-like (with six legs and singular claws), whale-like, or otherwise chimeric. Some regional variants have insect wings. All variants share a savage disposition and an appetite for human flesh. The ushi-oni inhabits beaches, coastal areas, and waterside locations. In many accounts, it works in tandem with the nure-onna (a woman-headed snake creature), using deceptive tactics to approach victims: the nure-onna lures a sympathetic passerby to hold what appears to be a baby, then paralyzes the victim while the ushi-oni attacks. In Wakayama Prefecture, the ushi-oni is described as catlike and springy, and its victims suffer soul-draining rather than physical consumption. In Ehime Prefecture, the ushi-oni is associated with legendary slayings by yamabushi (mountain ascetic) monks. In Izumo (Shimane Prefecture), groups of ushi-oni are said to appear as white butterflies during humid weather — a significant variant from the typical coastal predator. Classical literature documents an 1251 incident at Sensō-ji temple in which an ox-like yokai affected 24 monks, killing seven."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese. The name 牛鬼 (ushi-oni or gyūki) directly combines 牛 (ushi: ox, cow) and 鬼 (oni: demon, supernatural being).",
+      "meaning": "Ox-demon; a hybrid creature combining the power and form of an ox with the supernatural malevolence of an oni.",
+      "first_use": "Classical Japanese literature; the earliest documented reference to an ox-like yokai at Sensō-ji temple dates to 1251 CE"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yokai",
+      "subtype": "Chimeric coastal demon",
+      "variant": "Multiple regional variants across western Japan"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "oni", "name": "Oni", "relationship": "related", "description": "Broad class of Japanese supernatural beings; ushi-oni derives part of its name and nature from the oni tradition" },
+      { "id": "nure-onna", "name": "Nure-onna", "relationship": "related", "description": "Woman-headed snake yokai that frequently appears alongside the ushi-oni in coastal settings, using deceptive tactics to help it attack victims" },
+      { "id": "gyuki-chinese", "name": "Niū-guǐ (Chinese)", "relationship": "similar", "description": "Chinese ox-ghost; possible cultural ancestor of the ushi-oni via continental influence on Japanese supernatural tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Ox head with horns", "description": "Ox head with upward-curving horns; the most consistent feature across regional variants", "frequency": "always" },
+        { "feature": "Sharp fangs and slender tongue", "description": "Monstrous mouth with sharp fangs; slender tongue; wolf-like or predatory oral features", "frequency": "common" },
+        { "feature": "Spider-like or chimeric body", "description": "Body varies significantly by region: spider-like with six legs and singular claws (most common), whale-like body in some traditions, or otherwise chimeric", "frequency": "common" },
+        { "feature": "Poisonous breath or spit", "description": "Some variants are described as able to spit or breathe poison", "frequency": "occasional" },
+        { "feature": "Insect wings", "description": "Some regional variants possess wings, enabling flight", "frequency": "rare" }
+      ],
+      "morphology": "The ushi-oni defies a single unified description, reflecting its regional origin across multiple distinct Japanese folk traditions. The core chimeric concept — ox head on a monstrous non-bovine body — is consistent, but the specific body form varies widely from spider to whale to crab-like configurations."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Physical attack", "description": "Primary threat: savage physical attack on humans in coastal and waterside areas; described as 'enjoying killing and eating humans'", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Poison", "description": "Some variants can spit or breathe poison, disabling victims before physical attack", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting / deceptive approach", "description": "Some variants assume human form or create deceptive appearances (e.g., appearing as white butterflies in Izumo) to approach victims", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Soul-draining", "description": "The Wakayama variant is described as draining the victim's shadow or soul rather than physically consuming them", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Cooperation with nure-onna", "description": "In many coastal accounts, the ushi-oni works in tandem with the nure-onna, which paralyzes victims (by appearing to be holding a supernaturally heavy 'baby') while the ushi-oni attacks", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["beaches", "coastal areas", "seashore", "riverbanks", "waterside locations"],
+      "diet": "Described as predatory on humans; some variants eat humans, others drain life force or soul",
+      "patterns": [
+        "Inhabits coastal and waterside areas in western Japan",
+        "Attacks humans who approach the water's edge",
+        "May cooperate with the nure-onna to trap victims",
+        "The Izumo variant appears in groups as white butterflies during humid weather — a distinctive behavior diverging from the coastal predator pattern"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Western Japan, particularly coastal areas of Ehime, Wakayama, Shimane, and other prefectures along the Seto Inland Sea and Sea of Japan coastlines.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Ehime Prefecture (Shikoku)",
+        "Wakayama Prefecture",
+        "Shimane Prefecture (Izumo region)",
+        "Coastal areas of western Japan generally",
+        "Seto Inland Sea coastal communities"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Uwajima, Ehime Prefecture",
+        "location": {
+          "description": "Coastal city of Uwajima, Ehime Prefecture, Shikoku; site of the Ushi-oni Festival featuring the famous parade float",
+          "country": "Japan",
+          "region": "Ehime Prefecture, Shikoku",
+          "coordinates": { "latitude": 33.225, "longitude": 132.561 }
+        },
+        "notes": "The Uwajima Ushi-oni Festival (Warei Festival) features a massive multi-person parade float with a carved ushi-oni head; one of Japan's most famous local festivals representing the ushi-oni's transformation from feared demon to protective deity"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1251-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Classical Japanese literature documents an incident at Sensō-ji temple in 1251 CE involving an ox-like yokai that killed seven monks; this is the earliest datable account"
+      },
+      "peak_activity_periods": [
+        { "period": "Medieval period (1185–1603 CE)", "description": "Period of most active folk documentation of ushi-oni encounters in western Japan" }
+      ],
+      "seasonal_patterns": "The Izumo variant appears as white butterflies during humid summer weather. The Uwajima Ushi-oni Festival takes place in late July."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The ushi-oni likely originates in the folk traditions of coastal communities in western Japan, reflecting anxiety about the ocean and coastal dangers. The ox-demon chimera may have developed independently or may show influence from Chinese supernatural traditions (the Chinese niū-guǐ, ox-ghost). The diversity of regional variants suggests the name 'ushi-oni' was applied to several distinct local supernatural beings that shared the ox-demon concept.",
+      "earliest_accounts": "The earliest datable account is the 1251 CE incident at Sensō-ji temple in which an ox-like yokai reportedly affected 24 monks, killing seven. The ushi-oni appears in Edo-period (1603–1868) supernatural compendia and folk tale collections.",
+      "folklore_connections": "Related to the broader Japanese tradition of chimeric supernatural beings (yokai), particularly those combining animal forms. The nure-onna partnership is documented in multiple sources, suggesting it is a regionally consistent element rather than a single tradition."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1251-01-01", "event": "Classical literature records an ox-like yokai at Sensō-ji temple affecting 24 monks and killing seven", "significance": "Earliest datable documented account of an ushi-oni-type creature", "source": "Classical Japanese literature (cited in Wikipedia article on ushi-oni)" },
+      { "date": "1700-01-01", "event": "Ushi-oni appears in Edo-period compendia of supernatural beings and regional folk tale collections", "significance": "Documentation of regional variants across western Japan in the Edo period", "source": "Edo-period yokai compendia" }
+    ],
+    "modern_era": "The ushi-oni survives most vigorously in the Uwajima Ushi-oni Festival (Warei Festival), one of the most famous local festivals in Shikoku. The parade float — a massive multi-person construction with a carved and decorated ushi-oni head — has transformed the creature from feared demon to protective civic symbol. The creature appears in modern Japanese popular culture through video games and anime."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +158,83 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
+    "paranormal": [
+      {
+        "name": "Genuine supernatural predator",
+        "description": "Traditional Japanese folk belief: the ushi-oni is a real supernatural entity inhabiting coastal areas of western Japan; a genuine threat requiring avoidance and, in some communities, ritual propitiation.",
+        "proponents": ["Traditional western Japanese coastal folk belief"],
+        "evidence_cited": ["Regional oral tradition accounts", "Consistency of descriptions across communities in the same region", "1251 Sensō-ji temple account in classical literature"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Codification of coastal danger fears",
+        "description": "Scholarly interpretation: the ushi-oni represents the codification of fear of the sea and coastal dangers in supernatural form; the chimeric ox-demon embodies the unpredictable violence of coastal hazards in a cultural framework that gives them agency and makes them comprehensible.",
+        "proponents": ["Japanese folklore scholars"],
+        "evidence_cited": ["Strong geographic correlation with coastal communities", "Predatory coastal behavior in all variants", "Similar chimeric coastal demons in other maritime cultures"]
+      }
+    ],
     "skeptical": []
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Western Japan coastal folk tradition",
+        "Ehime Prefecture ushi-oni legends",
+        "Wakayama Prefecture ushi-oni tradition",
+        "Izumo (Shimane Prefecture) white butterfly manifestation",
+        "Partnership with nure-onna in coastal encounter tales"
+      ],
+      "stories": [
+        "The 1251 Sensō-ji temple incident: ox-like yokai kills seven of twenty-four monks",
+        "The nure-onna partnership: a woman-headed snake creature offers a traveler a baby to hold; the 'baby' grows supernaturally heavy, paralyzing the victim while the ushi-oni attacks",
+        "Yamabushi monks of Ehime slaying ushi-oni: legendary accounts of mountain ascetics with the spiritual power to defeat the beast"
+      ],
+      "beliefs": "In western Japanese coastal communities, the ushi-oni was understood as a genuine threat of the sea and shoreline — a creature to be avoided and feared. In Uwajima and other communities that developed ushi-oni festival traditions, the beast has been transformed into a protective deity through ritual: the parade float carries the ushi-oni spirit as a protector of the community rather than a predator."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "film_tv": [
+        "Dororo (anime) — features an ushi-oni encounter",
+        "GeGeGe no Kitaro — ushi-oni appears in the yokai ensemble"
+      ],
+      "games": [
+        "Nioh 2 — ushi-oni as a boss enemy",
+        "Toukiden — ushi-oni-type demon",
+        "Various Japanese mobile games featuring yokai rosters"
+      ],
+      "other": [
+        "Uwajima Ushi-oni Festival (Warei Festival) — one of Japan's most famous local festivals; held annually in late July in Uwajima, Ehime Prefecture",
+        "Ushi-oni parade floats — massive multi-person constructions carried through the streets"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The ushi-oni is studied in Japanese folklore studies and yokai research. Regional ethnographic work documents surviving folk traditions in western Japan."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-ushi-oni",
+      "type": "website",
+      "title": "Ushi-oni — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ushi-oni",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
